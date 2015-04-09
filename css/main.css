@@ -3,6 +3,41 @@ html {
 	font-family: 'Dosis', sans-serif;
 }
 
+body{
+	margin: 0;
+}
+
+.masthead {
+	background-image: url("../images/beetle-logo.svg"), url("../images/beetle-logo.svg"), url("../images/waves.png");
+	background-repeat: repeat, no-repeat;
+	background-size: 30px auto;
+	overflow: hidden;
+	text-align: center;
+
+}
+
 h1 {
 	color: #512200;
+}
+
+h2 {
+
+}
+
+nav {
+
+}
+
+div {
+
+}
+
+.bannerdirt {
+
+}
+
+footer {
+	background-color: rgba (81, 34, 0, 0.5);
+	background-image: url (".../images/beetle-logo.svg");
+	background-size: 30px auto;
 }
