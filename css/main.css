@@ -2,3 +2,7 @@ html {
 	box-sizing: border-box;
 	font-family: 'Dosis', sans-serif;
 }
+
+h1 {
+	color: #512200;
+}
