@@ -11,12 +11,15 @@ body{
 	background-image: url("../images/beetle-logo.svg"), url("../images/beetle-logo.svg"), url("../images/waves.png");
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 70px auto, 70px auto, 100px auto;
+	background-position: 5% 5%, 95% 5%, center center;
 	overflow: hidden;
 	text-align: center;
 }
 
 a {
+	color: white;
 	text-decoration: none;
+	font-size: 1.5em;
 }
 
 .bannerdirt {
@@ -25,16 +28,28 @@ a {
 	margin-bottom: -4px;
 }
 
-nav ul {
-	margin: 0;
-	padding-left: 0;
-	padding-right: 0;
+nav {
 	width: 100%;
-	display: block;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+	background-color: #512200;
+	float: left;
+	padding: 1em 0;
+	opacity: 0.5;
 }
 
 h1 {
 	color: #512200;
+	margin: 0.3em;
 	font-size: 3em;
 }
 
@@ -53,12 +68,8 @@ li {
 	text-decoration: none;
 }
 
-nav {
-
-}
-
-nav a:hover {
-	opacity: 75%;
+a:hover {
+	opacity: 0.75%;
 }
 
 .ant-beetle {
