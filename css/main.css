@@ -9,11 +9,22 @@ body{
 
 .masthead {
 	background-image: url("../images/beetle-logo.svg"), url("../images/beetle-logo.svg"), url("../images/waves.png");
-	background-repeat: repeat, no-repeat;
-	background-size: 30px auto;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-size: 30px auto, 30px auto, 100px auto;
 	overflow: hidden;
 	text-align: center;
+}
 
+
+.bannerdirt {
+	position: relative;
+	padding: 0em;
+	clear:both;
+	margin-bottom: -4px;
+}
+
+header {
+	position: relative;
 }
 
 h1 {
@@ -21,15 +32,48 @@ h1 {
 }
 
 h2 {
+	text-align: center;
+	color: white;
+	margin: 0;
+}
 
+li {
+	text-decoration: none;
 }
 
 nav {
 
 }
 
+nav a:hover {
+	opacity: 75%;
+}
+
 div {
 
+}
+
+.ant-beetle {
+	float: left;
+	width: 50%;
+}
+
+.stag-beetle {
+	float: right;
+	width: 50%;
+}
+
+.dung-beetle {
+	float: left;
+	width: 50%;
+}
+.tortoise-beetle {
+	float: left;
+	width: 50%;
+}
+
+img {
+	width: 100%;
 }
 
 .bannerdirt {
@@ -37,7 +81,11 @@ div {
 }
 
 footer {
-	background-color: rgba (81, 34, 0, 0.5);
-	background-image: url (".../images/beetle-logo.svg");
-	background-size: 30px auto;
+	background-image: url(".../images/beetle-logo.svg");
+	background-color: rgba(81, 34, 0, 0.5);
+	background-size: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 1em;
+	clear: both;
 }
