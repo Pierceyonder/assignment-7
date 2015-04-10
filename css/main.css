@@ -22,6 +22,10 @@ a {
 	font-size: 1.5em;
 }
 
+li:hover {
+	opacity: 0.75;
+}
+
 .bannerdirt {
 	position: relative;
 	padding: 0em;
@@ -66,10 +70,6 @@ h2 {
 
 li {
 	text-decoration: none;
-}
-
-a:hover {
-	opacity: 0.75%;
 }
 
 .ant-beetle {
