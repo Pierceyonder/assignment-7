@@ -15,10 +15,22 @@ body{
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
 .bannerdirt {
 	position: relative;
 	padding: 0em;
 	margin-bottom: -4px;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	display: block;
 }
 
 h1 {
@@ -53,6 +65,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 	position: relative;
+	margin-bottom: -5px
 }
 
 .ant-beetle a {
@@ -79,6 +92,7 @@ nav a:hover {
 	float: right;
 	width: 50%;
 	position: relative;
+	margin-bottom: -4px
 }
 .stag-beetle a {
 	display: inline-block;
@@ -104,6 +118,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 	position: relative;
+	margin-bottom: -4px
 }
 .dung-beetle a {
 	display: inline-block;
@@ -129,6 +144,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 	position: relative;
+	margin-bottom: -4px
 }
 .tortoise-beetle a {
 	display: inline-block;
