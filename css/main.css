@@ -76,14 +76,54 @@ div {
 	float: right;
 	width: 50%;
 }
+.stag-beetle a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	color: #fff;
+	background-color: #a8ae98;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+}
+
+.stag-beetle a:hover {
+	background-image: linear-gradient(to bottom, #388200, #214D00)
+}
 
 .dung-beetle {
 	float: left;
 	width: 50%;
 }
+.dung-beetle a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	color: #fff;
+	background-color: #a8ae98;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+}
+.dung-beetle a:hover {
+	background-image: linear-gradient(to bottom, #388200, #214D00)
+
+}
+
 .tortoise-beetle {
 	float: left;
 	width: 50%;
+}
+.tortoise-beetle a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	color: #fff;
+	background-color: #a8ae98;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+}
+
+.tortoise-beetle a:hover {
+	background-image: linear-gradient(to bottom, #388200, #214D00)
 }
 
 img {
