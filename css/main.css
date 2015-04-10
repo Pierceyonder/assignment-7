@@ -10,31 +10,31 @@ body{
 .masthead {
 	background-image: url("../images/beetle-logo.svg"), url("../images/beetle-logo.svg"), url("../images/waves.png");
 	background-repeat: no-repeat, no-repeat, repeat;
-	background-size: 30px auto, 30px auto, 100px auto;
+	background-size: 70px auto, 70px auto, 100px auto;
 	overflow: hidden;
 	text-align: center;
 }
 
-
 .bannerdirt {
 	position: relative;
 	padding: 0em;
-	clear:both;
 	margin-bottom: -4px;
-}
-
-header {
-	position: relative;
 }
 
 h1 {
 	color: #512200;
+	font-size: 3em;
 }
 
 h2 {
+	font-size: 2rem;
+	padding: 1em 3em;
 	text-align: center;
 	color: white;
 	margin: 0;
+	position: absolute;
+	bottom: 0%;
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }
 
 li {
@@ -49,97 +49,118 @@ nav a:hover {
 	opacity: 75%;
 }
 
-div {
-
-}
-
 .ant-beetle {
 	float: left;
 	width: 50%;
+	position: relative;
 }
 
 .ant-beetle a {
 	display: inline-block;
-	padding: 0.5em 0.75em;
-	text-decoration: none;
-	color: #fff;
+	padding: 0.3em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
 	background-color: #a8ae98;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	position: absolute;
+	top: 73%;
+	right: 20%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
 .ant-beetle a:hover {
-	background-image: linear-gradient(to bottom, #388200, #214D00)
+	background-image: linear-gradient(to bottom, #388200, #214D00);
 }
 
 .stag-beetle {
 	float: right;
 	width: 50%;
+	position: relative;
 }
 .stag-beetle a {
 	display: inline-block;
-	padding: 0.5em 0.75em;
-	text-decoration: none;
-	color: #fff;
+	padding: 0.3em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
 	background-color: #a8ae98;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	position: absolute;
+	top: 73%;
+	right: 20%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
 .stag-beetle a:hover {
-	background-image: linear-gradient(to bottom, #388200, #214D00)
+	background-image: linear-gradient(to bottom, #388200, #214D00);
 }
 
 .dung-beetle {
 	float: left;
 	width: 50%;
+	position: relative;
 }
 .dung-beetle a {
 	display: inline-block;
-	padding: 0.5em 0.75em;
-	text-decoration: none;
-	color: #fff;
+	padding: 0.3em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
 	background-color: #a8ae98;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	position: absolute;
+	top: 73%;
+	right: 20%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 .dung-beetle a:hover {
-	background-image: linear-gradient(to bottom, #388200, #214D00)
+	background-image: linear-gradient(to bottom, #388200, #214D00);
 
 }
 
 .tortoise-beetle {
 	float: left;
 	width: 50%;
+	position: relative;
 }
 .tortoise-beetle a {
 	display: inline-block;
-	padding: 0.5em 0.75em;
-	text-decoration: none;
-	color: #fff;
+	padding: 0.3em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
 	background-color: #a8ae98;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #6FC000, #388200) ;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	position: absolute;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	top: 73%;
+	right: 20%;
 }
 
 .tortoise-beetle a:hover {
-	background-image: linear-gradient(to bottom, #388200, #214D00)
+	background-image: linear-gradient(to bottom, #388200, #214D00);
 }
 
 img {
 	width: 100%;
-}
-
-.bannerdirt {
 
 }
 
 footer {
-	background-image: url(".../images/beetle-logo.svg");
+	background-image: url("../images/beetle-logo.svg");
 	background-color: rgba(81, 34, 0, 0.5);
-	background-size: 20px auto;
-	background-position: center center;
+	background-size: 3em auto;
+	background-position: center;
 	background-repeat: no-repeat;
-	padding: 1em;
+	padding: 2em 0;
 	clear: both;
 }
